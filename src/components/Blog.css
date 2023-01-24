@@ -1,0 +1,240 @@
+/** @format */
+
+.blog {
+  width: "100%";
+  height: 80vh;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.blog h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.blog p {
+  color: #808080;
+  font-size: 17px;
+  margin-top: 1rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  justify-content: space-between;
+}
+.col1 {
+  width: 50%;
+  display: flex;
+  padding: 2rem;
+  height: 50vh;
+}
+
+.schooling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 70%;
+  margin-left: 2rem;
+  height: 50vh;
+}
+.better h4  {
+  position: relative;
+  right: 1rem;
+
+}
+
+
+.date {
+  position: relative;
+  right: 8rem;
+}
+
+.paragra p {
+  width: 50%;
+  position: relative;
+  right: 9rem;
+  height: 20vh;
+  padding-left: 1rem;
+  text-align: left;
+  line-height: 2;
+  
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-top: 5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.col1 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.col1 img {
+  width: 40%;
+  height: 20vh;
+  border-radius: 5px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container1 p {
+  color: #808080;
+  font-size: 15px;
+  width: 50%;
+}
+
+.col2 {
+  width: 50%;
+  height: 50vh;
+  flex-direction: row;
+
+  display: flex;
+  padding: 2rem;
+  overflow: hidden;
+}
+.col2 img {
+  width: 40%;
+  height: 20vh;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .blog p {
+    color: #808080;
+    font-size: 16px;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0 !important;
+    width: 100%;
+  }
+  .blog {
+    width: 100%;
+
+    margin-top: 20rem;
+    text-align: center;
+  }
+
+  .blog h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+  }
+  .row1 {
+    display: flex;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    flex-direction: column !important;
+  }
+
+  .row2 {
+  
+    display: flex;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    flex-direction: column !important;
+  }
+  .col1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    overflow: hidden;
+    height: 70vh;
+   
+  }
+  .col1 img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 5px;
+  }
+
+  .col2 img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 5px;
+  }
+
+  .col2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    height: 70vh;
+    overflow: hidden;
+  
+  }
+  .col2 img{
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+  }
+
+
+  .schooling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  padding-left: 0rem;
+ 
+    height: 100vh;
+  }
+
+  
+
+  .better h4{
+    position: relative;
+  color: #000000;
+  font-size: 22px;
+  padding-top: 1rem;
+  font-weight: 600;
+
+  }
+  
+  
+  .date {
+    position: relative;
+    color: #000000;
+  font-size: 26px;
+  padding-top: 1rem;
+  font-weight: 600;
+  }
+  
+  .paragra p {
+    width: 85%;
+    position: relative;
+    right: 0rem;
+   
+    padding-left: 2rem;
+  
+    
+   
+  }
+
+}

@@ -1,0 +1,210 @@
+/** @format */
+
+.logo {
+  padding-left: 5rem;
+}
+nav {
+  display: flex;
+  width: 100%;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #373a6d;
+  padding-bottom: 4rem;
+  padding-top: 0.5rem;
+}
+nav.active {
+  background-color: whitesmoke;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  height: 80px;
+}
+
+.nav-links {
+  display: flex;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.nav-item a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  padding: 20px 20px;
+}
+
+.logo a.active {
+  color: #000;
+}
+a.active {
+  color: #000;
+}
+
+.icons.active {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.logo a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 30px 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 7px;
+}
+
+span {
+  font-size: 3rem;
+}
+
+.icons .MuiSvgIcon-root {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fff;
+}
+.active .MuiSvgIcon-root {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+  color: #000;
+}
+
+.btn {
+  font-size: 1.1rem;
+  position: relative;
+  background-color: transparent !important;
+  border-color: rgba(255, 255, 255, 0.5);
+  margin-top: 2rem;
+  color: #fff;
+  padding: 1rem 3rem;
+}
+
+
+
+.cancelActive  .MuiSvgIcon-root{
+  position: relative;
+  left: 10rem;
+  font-size: 2rem;
+  cursor: pointer;
+  position: relative;
+  left: 10rem;
+  display: none;
+
+}
+
+@media screen and (max-width: 500px) {
+  .background {
+    position: relative;
+  }
+
+  .nav-links {
+    display: flex;
+    position: absolute;
+    background-color: rgb(247, 247, 252);
+    font-size: 3rem;
+    height: 100vh;
+    width: 70%;
+    font-weight: 400;
+    flex-direction: column;
+    right: -350px;
+    top: 0px;
+    transition: 0.5s all ease;
+  }
+  .nav-links.actives {
+    background-color: rgb(247, 247, 252);
+    
+    height: 100vh;
+    font-weight: 600;
+    right: 0;
+    transition: 0.5s all ease;
+  }
+
+  .logo {
+    padding-left: 0;
+  }
+
+  
+  
+
+  .btn {
+    font-size: 1.1rem !important;
+    background-color: transparent !important;
+    border-color: rgba(255, 255, 255, 0.5);
+    margin-top: 2rem !important;
+    position: relative;
+    left: 1rem !important;
+    color: #fff !important;
+    padding: 1rem;
+  }
+
+  .icons .MuiSvgIcon-root {
+    display: block;
+    position: relative;
+    left: 4rem;
+  }
+
+  .cancel .MuiSvgIcon-root {
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    right: 30px;
+    top: 40px;
+    color: rgb(195, 187, 187);
+    font-weight: 400;
+  }
+
+  .active .MuiSvgIcon-root {
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    left: 3rem;
+    display: block;
+    color: #000;
+  }
+  .cancel  .MuiSvgIcon-root{
+    position: relative;
+    left: 10rem;
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    left: 10rem;
+    display: block;
+    color: #000;
+  }
+  .cancelActive  .MuiSvgIcon-root{
+    position: relative;
+    left: 10rem;
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    left: 10rem;
+    display: block;
+    top: 30px;
+    color: rgb(172, 163, 163);
+  }
+  .nav-item a {
+    position: relative;
+    top: 5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 400;
+    padding: 20px 20px;
+  }
+  nav.active {
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+  }
+}

@@ -1,0 +1,217 @@
+/** @format */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footerbg {
+  width: 100%;
+  padding-top: 5rem;
+  height: 50vh;
+  background-color: #373a6d;
+}
+hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(175, 164, 164);
+}
+
+.abou {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.abou h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+.abou p {
+  font-size: 18px;
+  color: #9b9db6;
+}
+
+.lin {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.lin h4 {
+  font-size: 20px;
+  color: whitesmoke;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+.quick {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quick a {
+  color: #9b9db6;
+  font-size: 18px;
+}
+
+.quick a:hover {
+  color: whitesmoke;
+}
+.follow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.follow h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.news input {
+  width: 100%;
+  margin-top: 1rem;
+  height: 5vh;
+  padding-left: 1rem;
+  padding-right: 4rem;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 1px solid #cfcfd5;
+  outline: none;
+  background-color: #373a6d;
+  font-size: 17px;
+}
+
+.copy h6{
+    margin-left: 10rem;
+    font-size: 20px;
+    color: #9b9db6;
+}
+.icon {
+  display: flex;
+  gap: 10px;
+cursor: pointer;
+  color: #9b9db6;
+}
+.icon :hover{
+    color: #ffff;
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    width: 100%;
+    
+  }
+
+  .footerbg {
+    background-color: #373a6d;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  hr {
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(175, 164, 164);
+  }
+  .abou {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .abou h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+  }
+
+  
+.lin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+margin-left: 2rem;
+    gap: 20px;
+  }
+  .lin h4 {
+    font-size: 20px;
+    color: #f5f5f5;
+    margin-left: 1rem;
+    position: relative;
+    left: -3rem;
+    font-weight: 500;
+  }
+
+  .quick {
+    display: flex;
+    flex-direction: column;
+position: relative;
+left:-4rem;
+    gap: 10px;
+  }
+  
+  .quick a {
+    color: #9b9db6;
+    
+    font-size: 18px;
+  }
+  
+  .quick a:hover {
+    color: whitesmoke;
+  }
+  .follow {
+    display: flex;
+  
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .follow h4 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+  }
+  
+  .news input {
+    width: 90%;
+    margin-top: 1rem;
+    height: 6vh;
+    padding-left: 1rem;
+    padding-right: 4rem;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid #cfcfd5;
+    outline: none;
+    background-color: #373a6d;
+  
+    font-size: 17px;
+  }
+  
+  .copy h6{
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+      font-size: 20px;
+      color: #9b9db6;
+  }
+  .icon {
+    display: flex;
+    gap: 10px;
+  cursor: pointer;
+    color: #9b9db6;
+  }
+  .icon :hover{
+      color: #ffff;
+  }
+}
